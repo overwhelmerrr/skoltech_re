@@ -55,5 +55,3 @@ $output - папка куда сохранить результат
 Текстовый фаил для задания: https://github.com/benbrandt/cs50/blob/master/pset5/texts/dracula.txt
 
 Подсказка, возможно потребуются функции grep, wc, sort, sed и даже awk.
-
-![image](https://github.com/overwhelmerrr/skoltech_re/assets/93338693/346bc4cc-87ba-43f1-b689-2442e88d77f9)
