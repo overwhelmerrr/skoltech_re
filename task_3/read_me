@@ -1,0 +1,7 @@
+1. Open terminal tab at folder 
+2. Build container:
+  docker build -t mycontainer .
+3. Run container and mount folder with txt files
+  docker run -itd --name mycontainer -v "$(pwd)/files:/files" -v "$(pwd)"/output_files:/output mycontainer
+4. Execute script for your txt file
+  exec mycontainer /scripts/my_script.sh /files/dracula.txt /output
